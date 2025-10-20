@@ -1,0 +1,16 @@
+2025-10-14 14:45:15,583 - INFO - ✅ Java détecté: openjdk version "21.0.8" 2025-07-15 LTS
+2025-10-14 14:45:15,584 - INFO - 📦 Installation des dépendances Python...
+2025-10-14 14:45:20,415 - ERROR - ❌ Erreur installation dépendances: Command '['C:\\Users\\aitnd\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-m', 'pip', 'install', '-r', 'C:\\Users\\aitnd\\Documents\\Efrei Paris\\SEMESTRE 7\\BIG DATA FRAMEWORK\\PROJET\\requirements.txt']' returned non-zero exit status 1.
+2025-10-14 14:45:20,416 - INFO - 🔧 Configuration Apache Kafka...
+2025-10-14 14:45:20,416 - INFO - ⬇️ Téléchargement kafka_2.13-3.6.0.tgz...
+2025-10-14 14:45:20,885 - ERROR - ❌ Erreur téléchargement/extraction kafka_2.13-3.6.0.tgz: 404 Client Error: Not Found for url: https://downloads.apache.org/kafka/3.6.0/kafka_2.13-3.6.0.tgz
+2025-10-14 14:45:20,887 - INFO - ⚡ Configuration Apache Spark...
+2025-10-14 14:45:20,887 - INFO - ⬇️ Téléchargement spark-3.5.0-bin-hadoop3.tgz...
+2025-10-14 14:45:21,319 - ERROR - ❌ Erreur téléchargement/extraction spark-3.5.0-bin-hadoop3.tgz: 404 Client Error: Not Found for url: https://downloads.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
+2025-10-14 14:45:21,320 - INFO - 📄 Instructions MongoDB:
+2025-10-14 14:45:21,321 - INFO - 1. Télécharger MongoDB Community Server
+2025-10-14 14:45:21,321 - INFO - 2. Installer avec configuration par défaut
+2025-10-14 14:45:21,322 - INFO - 3. Démarrer service MongoDB
+2025-10-14 14:45:21,322 - INFO - 4. MongoDB sera accessible sur mongodb://localhost:27017
+2025-10-14 14:45:21,323 - INFO - ✅ Script de lancement créé
+2025-10-14 14:45:21,325 - INFO - ✅ Documentation créée
