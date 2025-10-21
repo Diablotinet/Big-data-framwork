@@ -1,0 +1,137 @@
+2025-10-14 15:31:01,768 - INFO - [StreamingAnalytics] - ✅ Spark Session initialisée
+2025-10-14 15:31:32,280 - WARNING - [StreamingAnalytics] - ⚠️ MongoDB non disponible: localhost:27017: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68ee509553597f20d4c5892f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>, stockage en mémoire uniquement
+2025-10-14 15:31:32,288 - INFO - [StreamingAnalytics] - 🚀 Démarrage Spark Streaming...
+2025-10-14 15:31:33,398 - ERROR - [StreamingAnalytics] - ❌ Erreur Spark Streaming: Failed to find data source: kafka. Please deploy the application as per the deployment section of Structured Streaming + Kafka Integration Guide.
+2025-10-14 15:31:33,706 - INFO - [StreamingAnalytics] - ✅ Streaming arrêté
+2025-10-14 15:31:34,206 - INFO - [py4j.clientserver] - Error while receiving.
+Traceback (most recent call last):
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\clientserver.py", line 535, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2025-10-14 15:31:34,229 - INFO - [py4j.clientserver] - Closing down clientserver connection
+2025-10-14 15:31:34,229 - ERROR - [root] - Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\clientserver.py", line 535, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\clientserver.py", line 566, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2025-10-14 15:31:34,230 - INFO - [py4j.clientserver] - Closing down clientserver connection
+2025-10-14 15:31:54,418 - INFO - [StreamingAnalytics] - ✅ Spark Session initialisée
+2025-10-14 15:32:24,526 - WARNING - [StreamingAnalytics] - ⚠️ MongoDB non disponible: localhost:27017: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68ee50caaf190f6eca4a1d53, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>, stockage en mémoire uniquement
+2025-10-14 15:32:24,532 - INFO - [StreamingAnalytics] - 🚀 Démarrage Spark Streaming...
+2025-10-14 15:32:25,315 - ERROR - [StreamingAnalytics] - ❌ Erreur Spark Streaming: Failed to find data source: kafka. Please deploy the application as per the deployment section of Structured Streaming + Kafka Integration Guide.
+2025-10-14 15:32:25,559 - INFO - [StreamingAnalytics] - ✅ Streaming arrêté
+2025-10-14 15:32:25,579 - INFO - [py4j.clientserver] - Closing down clientserver connection
+2025-10-14 15:34:33,165 - INFO - [StreamingAnalytics] - ✅ Spark Session initialisée
+2025-10-14 15:35:03,210 - WARNING - [StreamingAnalytics] - ⚠️ MongoDB non disponible: localhost:27017: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68ee51693f573ce51cdf91e0, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>, stockage en mémoire uniquement
+2025-10-14 15:35:03,223 - INFO - [StreamingAnalytics] - 🚀 Démarrage Spark Streaming...
+2025-10-14 15:35:04,564 - ERROR - [StreamingAnalytics] - ❌ Erreur Spark Streaming: Failed to find data source: kafka. Please deploy the application as per the deployment section of Structured Streaming + Kafka Integration Guide.
+2025-10-14 15:35:05,011 - INFO - [StreamingAnalytics] - ✅ Streaming arrêté
+2025-10-14 15:35:05,054 - INFO - [py4j.clientserver] - Closing down clientserver connection
+2025-10-21 12:38:18,012 - ERROR - [root] - KeyboardInterrupt while sending command.
+Traceback (most recent call last):
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\clientserver.py", line 535, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\clientserver.py", line 563, in send_command
+    logger.info("Error while receiving.", exc_info=True)
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1529, in info
+    def info(self, msg, *args, **kwargs):
+    
+KeyboardInterrupt
+2025-10-21 12:38:18,070 - INFO - [py4j.java_gateway] - Search for sockets that match local addr ('127.0.0.1', 54032) and remote addr ('127.0.0.1', 54031)
+2025-10-21 12:38:18,072 - INFO - [py4j.java_gateway] - Shutting down matched socket <socket.socket fd=936, family=2, type=1, proto=0, laddr=('127.0.0.1', 54034), raddr=('127.0.0.1', 54031)>
+2025-10-21 12:38:18,072 - INFO - [py4j.clientserver] - Close connection stream
+2025-10-21 12:38:18,072 - INFO - [py4j.clientserver] - Send shutdown request for the Java socket 127.0.0.1, remote port 54032, local port 54031
+2025-10-21 12:38:18,073 - ERROR - [py4j.clientserver] - Exception occurred while shutting down connection
+Traceback (most recent call last):
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\clientserver.py", line 535, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\clientserver.py", line 563, in send_command
+    logger.info("Error while receiving.", exc_info=True)
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1529, in info
+    def info(self, msg, *args, **kwargs):
+    
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\clientserver.py", line 503, in shutdown_socket
+    self.socket.sendall("z\n".encode("utf-8"))
+ConnectionResetError: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2025-10-21 12:38:18,075 - INFO - [py4j.java_gateway] - Finished shutdown of socket <socket.socket fd=936, family=2, type=1, proto=0, laddr=('127.0.0.1', 54034), raddr=('127.0.0.1', 54031)>
+2025-10-21 12:38:18,075 - INFO - [py4j.java_gateway] - Shutting down the current connection <py4j.clientserver.ClientServerConnection object at 0x00000234FB28DD90>
+2025-10-21 12:38:18,076 - INFO - [py4j.clientserver] - Close connection stream
+2025-10-21 12:38:18,076 - INFO - [py4j.clientserver] - Send shutdown request for the Java socket 127.0.0.1, remote port 54032, local port 54031
+2025-10-21 12:38:18,076 - ERROR - [py4j.clientserver] - Exception occurred while shutting down connection
+Traceback (most recent call last):
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\clientserver.py", line 535, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\clientserver.py", line 563, in send_command
+    logger.info("Error while receiving.", exc_info=True)
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1529, in info
+    def info(self, msg, *args, **kwargs):
+    
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aitnd\AppData\Local\Programs\Python\Python312\Lib\site-packages\py4j\clientserver.py", line 503, in shutdown_socket
+    self.socket.sendall("z\n".encode("utf-8"))
+ConnectionResetError: [WinError 10054] Une connexion existante a dû être fermée par l’hôte distant
+2025-10-21 12:38:18,188 - INFO - [py4j.clientserver] - Closing down clientserver connection
+2025-10-21 12:38:18,188 - INFO - [py4j.clientserver] - Closing down clientserver connection

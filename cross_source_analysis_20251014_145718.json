@@ -1,0 +1,141 @@
+{
+  "timestamp": "20251014_145718",
+  "ap_articles_analyzed": 5,
+  "reddit_posts_analyzed": 10,
+  "gdelt_events_analyzed": 5,
+  "content_similarities": [
+    {
+      "ap_article_id": "ap_1",
+      "reddit_post_id": "reddit_0_0",
+      "content_similarity": 0.07256319374026346,
+      "sentiment_difference": -0.20535714285714285,
+      "ap_sentiment": 0.08214285714285714,
+      "reddit_sentiment": 0.2875
+    },
+    {
+      "ap_article_id": "ap_1",
+      "reddit_post_id": "reddit_0_1",
+      "content_similarity": 0.1059921313509325,
+      "sentiment_difference": -0.20535714285714285,
+      "ap_sentiment": 0.08214285714285714,
+      "reddit_sentiment": 0.2875
+    },
+    {
+      "ap_article_id": "ap_2",
+      "reddit_post_id": "reddit_1_0",
+      "content_similarity": 0.07256319374026346,
+      "sentiment_difference": -0.20535714285714285,
+      "ap_sentiment": 0.08214285714285714,
+      "reddit_sentiment": 0.2875
+    },
+    {
+      "ap_article_id": "ap_2",
+      "reddit_post_id": "reddit_1_1",
+      "content_similarity": 0.1059921313509325,
+      "sentiment_difference": -0.20535714285714285,
+      "ap_sentiment": 0.08214285714285714,
+      "reddit_sentiment": 0.2875
+    },
+    {
+      "ap_article_id": "ap_3",
+      "reddit_post_id": "reddit_2_0",
+      "content_similarity": 0.07256319374026346,
+      "sentiment_difference": -0.20535714285714285,
+      "ap_sentiment": 0.08214285714285714,
+      "reddit_sentiment": 0.2875
+    },
+    {
+      "ap_article_id": "ap_3",
+      "reddit_post_id": "reddit_2_1",
+      "content_similarity": 0.1059921313509325,
+      "sentiment_difference": -0.20535714285714285,
+      "ap_sentiment": 0.08214285714285714,
+      "reddit_sentiment": 0.2875
+    },
+    {
+      "ap_article_id": "ap_4",
+      "reddit_post_id": "reddit_3_0",
+      "content_similarity": 0.07256319374026346,
+      "sentiment_difference": -0.20535714285714285,
+      "ap_sentiment": 0.08214285714285714,
+      "reddit_sentiment": 0.2875
+    },
+    {
+      "ap_article_id": "ap_4",
+      "reddit_post_id": "reddit_3_1",
+      "content_similarity": 0.1059921313509325,
+      "sentiment_difference": -0.20535714285714285,
+      "ap_sentiment": 0.08214285714285714,
+      "reddit_sentiment": 0.2875
+    },
+    {
+      "ap_article_id": "ap_5",
+      "reddit_post_id": "reddit_4_0",
+      "content_similarity": 0.07256319374026346,
+      "sentiment_difference": -0.20535714285714285,
+      "ap_sentiment": 0.08214285714285714,
+      "reddit_sentiment": 0.2875
+    },
+    {
+      "ap_article_id": "ap_5",
+      "reddit_post_id": "reddit_4_1",
+      "content_similarity": 0.1059921313509325,
+      "sentiment_difference": -0.20535714285714285,
+      "ap_sentiment": 0.08214285714285714,
+      "reddit_sentiment": 0.2875
+    }
+  ],
+  "timing_analysis": [
+    {
+      "ap_article_id": "ap_1",
+      "ap_title": "Breaking: Major Economic Development in Global Markets 1",
+      "avg_reddit_delay": -11.208526173472222,
+      "avg_gdelt_delay": -3.3688974208333335,
+      "reddit_engagement_score": 0.438
+    },
+    {
+      "ap_article_id": "ap_2",
+      "ap_title": "Breaking: Major Economic Development in Global Markets 2",
+      "avg_reddit_delay": -6.425377606388889,
+      "avg_gdelt_delay": 0.21778827583333332,
+      "reddit_engagement_score": 0.594
+    },
+    {
+      "ap_article_id": "ap_3",
+      "ap_title": "Breaking: Major Economic Development in Global Markets 3",
+      "avg_reddit_delay": -18.128746665138888,
+      "avg_gdelt_delay": 5.960324645277778,
+      "reddit_engagement_score": 0.5475
+    },
+    {
+      "ap_article_id": "ap_4",
+      "ap_title": "Breaking: Major Economic Development in Global Markets 4",
+      "avg_reddit_delay": -8.991001495972222,
+      "avg_gdelt_delay": 5.1519941538888885,
+      "reddit_engagement_score": 0.654
+    },
+    {
+      "ap_article_id": "ap_5",
+      "ap_title": "Breaking: Major Economic Development in Global Markets 5",
+      "avg_reddit_delay": 3.7100999802777777,
+      "avg_gdelt_delay": 3.477781501388889,
+      "reddit_engagement_score": 0.8465
+    }
+  ],
+  "activity_patterns": {
+    "reddit_activity": {
+      "total_posts": 10,
+      "total_upvotes": 5238,
+      "total_comments": 922,
+      "avg_engagement": 0.616
+    },
+    "gdelt_activity": {
+      "total_events": 5,
+      "avg_tone": -0.8788209816232337,
+      "total_mentions": 1163,
+      "total_sources": 286
+    }
+  },
+  "avg_content_similarity": 0.08927766254559796,
+  "avg_sentiment_difference": -0.20535714285714285
+}
